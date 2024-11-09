@@ -1,3 +1,9 @@
+# Before you begin
+
+It is actually an assignment of OOP. If you're a student, especially studying in ZJU, I do hope this can help you.
+I've done most of the work by myself. In another word, you can say it is "original". Anyway, you can use my code freely and it is unnecessary to let me know, but I'll take no responsibility either if something out of your control happens.
+
+
 # Personal Diary Application
 
 Personal Diary is a simple application designed to help users manage and maintain their personal diaries. It allows users to easily add, view, delete, and list their diary entries. The application provides a basic command-line interface for users to interact with the software.
@@ -8,9 +14,7 @@ Personal Diary is a simple application designed to help users manage and maintai
 ```
 PersonalDiary/
 │
-├── README.md               # This document
-├── report/               
-│   └── report.pdf          # Project report
+├── README.md               # This document            
 ├── code/                 
 │   ├── src/              
 │   │   ├── main.cpp        # Main program interface code
