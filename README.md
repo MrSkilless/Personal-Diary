@@ -14,17 +14,22 @@ Personal Diary is a simple application designed to help users manage and maintai
 ```
 PersonalDiary/
 │
-├── README.md               # This document            
-├── code/                 
-│   ├── src/              
-│   │   ├── main.cpp        # Main program interface code
-│   │   ├── pdadd.cpp       # Adding or overwriting diary entries
-│   │   ├── pdlist.cpp      # Listing diary entries
-│   │   ├── pdshow.cpp      # Displaying a diary entry for a specific date
-│   │   ├── pdremove.cpp    # Removing a diary entry for a specific date
-|   |   └── diary.bat		# A script calling programs through parameter
-│   └── download/         
-│       ├── mysetup.exe     # For installation
+├── README.md               # This document                             
+├── src/              
+│   ├── main.cpp        # Main program interface code
+│   ├── pdadd.cpp       # Adding or overwriting diary entries
+│   ├── pdlist.cpp      # Listing diary entries
+│   ├── pdshow.cpp      # Displaying a diary entry for a specific date
+│   ├── pdremove.cpp    # Removing a diary entry for a specific date
+|   └── diary.bat		# A script calling programs through parameter
+├── download/         
+│   └── mysetup.exe     # For installation
+├── bin/
+|   ├── main.exe
+|   ├── pdadd.exe
+|   ├── pdlist.exe
+|   ├── pdshow.exe
+|   └── pdremove.exe
 
 ```
 
