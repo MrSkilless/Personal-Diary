@@ -24,7 +24,7 @@ PersonalDiary/
 │   │   ├── pdremove.cpp    # Removing a diary entry for a specific date
 |   |   └── diary.bat		# A script calling programs through parameter
 │   └── download/         
-│       ├── mysetup.iss     # Script for generating the installation package
+│       ├── mysetup.exe     # For installation
 
 ```
 
@@ -55,7 +55,7 @@ This application provides the following functionalities:
 
 ## Installation
 
-1. Compile the .iss file into an installation program using the Inno Setup compiler. Then download the `mysetup.exe` file and run the installer.
+1. Download the `mysetup.exe` file and run the installer.
 2. Follow the on-screen instructions to complete the installation.
 3. Once installed, you can run the Personal Diary application from the Start Menu or the desktop shortcut.
 
@@ -63,5 +63,4 @@ This application provides the following functionalities:
 
 * Windows operating system (64-bit version)
 * Microsoft Visual C++ runtime libraries
-* Inno Setup (unnecessary)
 * gcc (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 8.1.0
